@@ -1,22 +1,127 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
 html, body {
     background-color: #ffe6e6;
 }
 
 .top {
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: calc(50% - 150px);
-    left: calc(50% - 150px);
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
 }
 
 .bottom {
-    width: 500px;
-    height: 500px;
-    opacity: 0.8;
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
     position: absolute;
-    top: calc(50% - 250px);
-    right: calc(50% - 250px);
+    top: calc(50% - 70px);
+    right: calc(50% - 80px);
     animation: spin 20s linear infinite;
 }
 
@@ -25,6 +130,25 @@ html, body {
   to { transform: rotate(360deg); }
 }
 
+@media only screen and (min-width: 1000px) {
+   .top {
+        width: 150px;
+        height: 150px; 
+        position: absolute;
+        top: calc(50% - 100px);
+        left: calc(50% - 100px);
+    }
+
+.bottom {
+        width: 500PX;
+        height: 500PX;
+        opacity: 0.7;
+        position: absolute;
+        top: calc(50% - 250px);
+        right: calc(50% - 250px);
+        animation: spin 20s linear infinite;
+    } 
+}
 
 
 
