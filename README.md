@@ -19,5 +19,4 @@ You can easily see this page on GitHub Pages. Here is the link! [Apple page](htt
 
 
 
-##
-This basic concept / idea was inspirede by the work of Rita Łyczywek from [flynerd.pl](https://www.flynerd.pl/)
+## This basic concept / idea was inspirede by the work of Rita Łyczywek from [flynerd.pl](https://www.flynerd.pl/)
