@@ -17,5 +17,7 @@ Done with:
 ### How to Start
 You can easily see this page on GitHub Pages. Here is the link! [Apple page](https://magaliepie.github.io/apple-page/)
 
-###
+
+
+##
 This basic concept / idea was inspirede by the work of Rita Łyczywek from [flynerd.pl](https://www.flynerd.pl/)
